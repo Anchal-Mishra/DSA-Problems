@@ -9,11 +9,19 @@
     <h1>Remove duplicates in-place from a sorted array and return the new length.</h1>
     <script>
         let arr=[1, 1, 2, 3, 3]
+        let j=0
+        console.log(arr);
+        
         for(let i=0; i<arr.length; i++){
-            if(arr[i]==arr[i+1]){
-                arr[]
+            if(arr[i]!=arr[j]){
+                j++
+                arr[j]=arr[i]
             }
         }
+
+        arr.length=j+1
+        console.log(arr);
+        
     </script>
 </body>
 </html>
