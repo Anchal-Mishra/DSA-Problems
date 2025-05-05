@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Find the max and min value in the array.</h1>
+    <script>
+        let arr=[2, 8, 1, 4]
+
+        let max=arr[0]
+        let min=arr[0]
+
+        console.log(arr);
+        
+
+        for(let i=0; i<arr.length; i++){
+
+            if(arr[i]>max){
+                max=arr[i]
+            }
+            if(arr[i]<min){
+                min=arr[i]
+            }
+        }
+        console.log("Max Element in the array", max);
+        console.log("Min Element in the array", min);
+        
+    </script>
+</body>
+</html>
